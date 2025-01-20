@@ -134,3 +134,51 @@
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 }
+.btn-1 , .btn-2 , .btn-3{
+    border: none;
+    background-color: transparent;
+    color: #64C8FF;
+}
+.btn-2{
+    color: #FEA301;
+}
+.btn-3{
+    color: #8700FF;
+}
+.curriculum-description{
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 15.09px;
+    font-weight: 500;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.left-right{
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.fa-chevron-left, .fa-chevron-right{
+    position: relative;
+    left: 25px;
+    top: 23px;
+    color: white;
+}
+.chevron{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: orange;
+    margin-left: 5px;
+}
+.Stories{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#box-1{
+    /* grid-column: span 2; */
+    grid-row: span 2;
+}
