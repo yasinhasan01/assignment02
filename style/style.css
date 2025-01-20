@@ -1,0 +1,136 @@
+
+/* code for font */
+.quicksand-font{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.bg{
+    background-image: url('../assets/bg.png');
+    background-repeat: y;
+}
+/* display flex */
+
+.display-flex{
+    display: flex;
+}
+.btn-primary{
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    border: none;
+    width: 197px;
+    height: 50px;
+}
+.btn-secondary{
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    color: white;
+}
+.navbar{
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-around;
+}
+.middle-part{
+    gap: 32px;
+}
+.middle-part a{
+    text-decoration: none;
+}
+.Home{
+    color: #FEA301;
+}
+.About{
+    color:skyblue ;
+}
+.Facilities{
+    color: #05D4DF;
+}
+.Admission{
+    color: #5D58EF;
+}
+/* banner style */
+.banner{
+    align-items: center;
+    justify-content: center;
+
+}
+.Banner-text{
+    width: 640px;
+}
+.banner-title{
+    
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+#banner-text-01{
+    color: orange;
+}
+#banner-text-02{
+    color: skyblue;
+}
+.banner-description{
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+}
+/* Standard Curriculum */
+.curriculum{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    color: rgb(0, 0, 0);
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57.5px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.box{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 367.8px;
+    height: 476.78px;
+    text-align: center;
+    padding: 20px;
+    
+
+}
+.box img{
+    height: 124.69px;
+    width: 137.44px;
+}
+.curriculum-box-1{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.curriculum-box-2{
+    margin-left: 20px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.curriculum-box-3{
+    margin-left: 20px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
