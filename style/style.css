@@ -16,9 +16,9 @@
   .display-flex{
       display: flex;
   }
-  *{
+  /* *{
     margin: 0px;
-  }
+  } */
   .btn-primary{
       border-radius: 12px;
       background: rgb(254, 163, 1);
@@ -364,6 +364,9 @@
       text-align: left;
   }
   @media screen and (max-width:576px) {
+    *{
+        margin: 0px;
+    }
     .navbar{
         display: none;
     }
