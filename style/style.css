@@ -363,6 +363,31 @@
       letter-spacing: 0%;
       text-align: left;
   }
+  .btn-primary:hover{
+    background-color: skyblue;
+    cursor: pointer;
+  }
+  .btn-secondary:hover{
+    background-color: #FEA301;
+    border: none;
+    cursor: pointer;
+  }
+  .chevron:hover{
+    background-color: skyblue;
+    cursor: pointer;
+  }
+  .btn-1:hover{
+    color: orange;
+    cursor: pointer;
+  }
+  .btn-2:hover{
+    color: skyblue;
+    cursor: pointer;
+  }
+  .btn-3:hover{
+    color: black;
+    cursor: pointer;
+  }
   @media screen and (max-width:576px) {
     *{
         margin: 0px;
