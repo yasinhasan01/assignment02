@@ -16,6 +16,9 @@
   .display-flex{
       display: flex;
   }
+  *{
+    margin: 0px;
+  }
   .btn-primary{
       border-radius: 12px;
       background: rgb(254, 163, 1);
@@ -400,7 +403,7 @@
     }
     .curriculum-box-container{
         flex-direction: column;
-        display: none;
+        /* display: none; */
     }
     .left-right{
         display: none;
@@ -457,7 +460,7 @@
     width: 60%;
    }
    .stories{
-    width: 97%;
+    width: 100%;
     margin: 0 auto;
     /* display: none; */
    }
